@@ -63,7 +63,7 @@ void InitList(SqList &L) {
     L.MaxSize = InitSize;
 }
 
-// Insetion
+// Insertion
 bool ListInsert(SqList &L, int i, Elemtype e) {
     if (i < 1 || i > L+1) return false;
     if (L.length == MaxSize) return false;
