@@ -134,7 +134,7 @@ LinkList List_TailInsert(LinkList &L) {
         scanf("%d", &x);
     }
     r->next = NULL;
-    return L
+    return L;
 }
 ```
 
