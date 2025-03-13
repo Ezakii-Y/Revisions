@@ -85,7 +85,7 @@ bool ListInsert(LinkList &L, int i, ElemType e) {
     return true;
 }
 
-// deletion
+// deletes a node at a given position and stores the deleted value in e
 bool ListDelete(LinkList &L, int i, ElemType &e) {
     LNode* p = L;
     int j = 0;
