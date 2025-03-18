@@ -74,7 +74,7 @@ $i\leq \lfloor n/2 \rfloor$，则$i$为分支结点，否则为叶结点。
 6. 结点$i$的双亲编号为$\lfloor i/2 \rfloor$，左孩子编号为$2i$，右孩子编号为$2i+1$。
 7. 结点所在层次为$\lceil \log_{2}(i+1) \rceil$或$\lfloor \log_{2}n \rfloor+1$。
 
-具有$n(n>0)$个结点的完全二叉树高度为$\lceil \log_{2}(n+1) \rceil$或$\lfloor \log_{2}n \rfloor+1$
+具有$n(n>0)$个结点的完全二叉树高度为$\lceil \log_{2}(n+1) \rceil$或$\lfloor \log_{2}i \rfloor+1$
 。
 
 #### 二叉树的存储结构
@@ -103,4 +103,4 @@ typedef struct BiTNode {
     - [二叉树的存储结构](#二叉树的存储结构)
 
 [^1]:对于完全/满二叉树，这种方式比较合适。
-[^2]:$m$叉树有$n$个结点，其空链域数位$nm-n+1$。
+[^2]:$m$叉树有$n$个结点，其空链域数为$nm-n+1$。
